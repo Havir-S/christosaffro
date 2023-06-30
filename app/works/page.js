@@ -14,7 +14,7 @@ export default function Works() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.75, ease: "easeInOut" }}
       exit={{ y: 20, opacity: 0 }}
-      className="max-w-screen-lg mt-4  w-[90%] mx-auto"
+      className=" mt-4 max-w-screen-md mx-auto"
     >
       <h3 className="font-bold text-2xl border-b-[2px] border-gray-400 pb-[1px] w-fit">
         Works

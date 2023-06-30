@@ -11,7 +11,7 @@ export default function Home() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.75, ease: "easeInOut" }}
       exit={{ y: 20, opacity: 0 }}
-      className="py-24 dark:bg-red-300 px-10 w-full"
+      className="py-24 dark:bg-red-300 px-10 w-full max-w-screen-md mx-auto"
     >
       <div className=" bg-[#9797971c] rounded-md py-2 px-5 text-center shadow-xl w-full font-prozaLibre">
         Web Developer and Traffic Management Designer living in Poland

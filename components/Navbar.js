@@ -44,10 +44,10 @@ export default function Navbar() {
   }
 
   return (
-    <div className="flex sticky bg-[#1C1C1E] top-0 z-10 items-center justify-between px-5 max-w-screen-2xl mx-auto py-2  font-lobsterTwo italic">
-      <div>
+    <div className="flex sticky bg-[#1C1C1E] top-0 z-10 items-center justify-between px-5 max-w-screen-lg mx-auto py-2  font-lobsterTwo italic">
+      <div className="group">
         <Image
-          className="inline-block rotate-45 transition-all duration-200 ease-in-out hover:rotate-[180deg]"
+          className="inline-block rotate-45 transition-all duration-200 ease-in-out group-hover:rotate-[180deg]"
           src="./icons/rocket2.svg"
           alt="logo"
           width={30}
